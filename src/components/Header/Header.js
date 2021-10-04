@@ -17,16 +17,16 @@ const Header = () => {
                                 <nav className="container-fluid">
                                     <ul className="navbar-nav ">
                                         <li className="nav-item p-2">
-                                            <NavLink className="nav-link fs-4" to="/home">Home</NavLink>
+                                            <NavLink activeClassName="text-primary" className="nav-link fs-4" to="/home">Home</NavLink>
                                         </li>
                                         <li className="nav-item p-2">
-                                            <NavLink className="nav-link fs-4" to="/services">Services</NavLink>
+                                            <NavLink activeClassName="text-primary" className="nav-link fs-4" to="/services">Services</NavLink>
                                         </li>
                                         <li className="nav-item p-2">
-                                            <NavLink className="nav-link fs-4" to="/about">About</NavLink>
+                                            <NavLink activeClassName="text-primary" className="nav-link fs-4" to="/about">About</NavLink>
                                         </li>
                                         <li className="nav-item p-2">
-                                            <NavLink className="nav-link fs-4" to="/contact">Contact</NavLink>
+                                            <NavLink activeClassName="text-primary" className="nav-link fs-4" to="/contact">Contact</NavLink>
                                         </li>
                                     </ul>
                                 </nav>

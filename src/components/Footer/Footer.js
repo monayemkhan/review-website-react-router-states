@@ -21,8 +21,9 @@ const Footer = () => {
                     <a href=""><FontAwesomeIcon className="icon fs-1 fw-bold text-primary" icon={faTwitter} /></a>
                 </div>
             </div>
+            <hr  className="w-100 mx-auto text-light"  />
             <div className="row">
-                <div className="container border-top text-center py-4">
+                <div className="container text-center py-4">
                     <p className="text-light">Copyright &copy; 2021 All rights reserved | This template is made by  Monayem Khan</p>
                 </div>
             </div>

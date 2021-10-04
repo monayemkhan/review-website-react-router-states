@@ -1,3 +1,7 @@
 .images{
     height: 15em;
 }
+
+.card:hover {
+    box-shadow: 5px 5px 16px rgb(0, 0, 139);
+}

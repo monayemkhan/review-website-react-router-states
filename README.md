@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Online Edu
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project deployed on [netlify: https://musing-wescoff-fb1e41.netlify.app/](https://musing-wescoff-fb1e41.netlify.app/).
 
-## Available Scripts
+## 
 
-In the project directory, you can run:
+In the project src folder user can find a component folder, 
+Here some short description or details of those folders
 
-### `npm start`
+### `App.js`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+In App.js file you can see the Router of this website. I just simply rename the BrowserRoter as Router and I use Header Component before the Switch and footer after the Switch for show in all pages.I use Navlink instant of a tag for load the data without loading the site
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### `Header`
 
-### `npm test`
+In Header Component, site details added. 
+User can see the site logo, navigation item and a search bar and search button. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### `Services`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In Services component lots of thing added here. 
+In this component all the  JSON data fetched here by using useState and useEffect
+This Services component pass data to Service.
+On return of data I returned Service component data under the hood of Service-container by using .map method and pass a unique key. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `Contact`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This Contact component shows user a form and a contact details . In contact from users can sends us their feedback and in the contact details section user cn show contact details like address, phone number, mail etc
 
-### `npm run eject`
+### `About`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Note: In About Section you can see the `about` details and also can see the teacher component**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This `About` component can show up the `About` data. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+for icon  I use FontAwesome . And for Css I use React-Bootstrao and I also added some custom css. 
 
-## Learn More
+## Thanks Giving
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Thanks for visiting my 2nd react project**
