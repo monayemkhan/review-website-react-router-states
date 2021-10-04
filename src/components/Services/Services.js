@@ -12,8 +12,8 @@ const Services = () => {
         <div className="container">
             <div className="row">
             <div className="section-title text-center">
-                <span>Popular Online Courses</span>
-                <h2>Lets Brows All Category</h2>
+                <p className="text-primary mt-5">Popular Online Courses</p>
+                <h1 className="">Lets Brows All Category</h1>
             </div>
                 {
                     services.map(service => <Service

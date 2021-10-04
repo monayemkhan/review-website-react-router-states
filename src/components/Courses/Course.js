@@ -6,14 +6,13 @@ const Course = (props) => {
     // const {course_name, course_details, img} = props?.course
     return (
         <div className="col-md-6 mt-2">
-            
-            <div className="">
-                <Card className="my-2 h-100">
+            <div>
+                <Card className="m-3 h-100">
                     <Card.Img className="images" variant="top" src={props?.course?.img} />
                     <Card.Body>
                         <Card.Title>{props?.course?.course_name}</Card.Title>
                         <Card.Text>
-                        {props?.course?.course_details} <br />
+                        <p>{props?.course?.course_details}</p>
                         <h5>Course Fee: {props?.course?.amount}</h5>
                         </Card.Text>
                         <Button variant="primary">Read more</Button>
@@ -21,7 +20,6 @@ const Course = (props) => {
                 </Card>
             </div>
         </div>
-        
     );
 };
 
