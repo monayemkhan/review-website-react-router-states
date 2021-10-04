@@ -3,22 +3,24 @@ import logo from '../../images/about.jpg';
 const About = () => {
     return (
         <div className="about-section">
-            <div className="container text-center bg-light">
-                <h1 className="fw-bold">About Us</h1>
+            <div className="container text-center">
+                <h1 className=" mt-5 fw-bold p-4">About Us</h1>
+                <hr />
             </div>
             <div className="container">
                 <div className="row">
                     <div className="col-6 p-5 my-3">
-                        <h1>Our Mission</h1>
+                        <h2>Our Mission</h2>
                         <p>The New School prepares students to understand, contribute to, and succeed in a rapidly changing society, thus making the world a better and more just place. We will ensure that our students develop both the skills that a sound education provides and the competencies essential for success and leadership in the emerging creative economy. We will also lead in generating practical and theoretical knowledge that enables people to better understand our world and improve conditions for local and global communities.</p>
                     </div>
                     <div className="col-6 p-5 my-3">
-                        <h1>Our Vision</h1>
+                        <h2>Our Vision</h2>
                         <p>We are and will be a university where design and social research drive approaches to studying issues of our time, such as democracy, urbanization, technological change, economic empowerment, sustainability, migration, and globalization. We will be the preeminent intellectual and creative center for effective engagement in a world that increasingly demands better-designed objects, communication, systems, and organizations to meet social needs.</p>
                     </div>
                 </div>
+                <hr />
             </div>
-            <hr />
+            
             <div className="container">
                 <div className="row">
                     <div className="col-md-6 my-5">

@@ -14,16 +14,16 @@ const Footer = () => {
                         <button className="btn btn-primary input-group-text" id="basic-addon2">Subscribe Now</button>
                     </div>
                 </div>
-                <div className="col-md-5 ms-5">
+                <div className="col-md-5 ms-5 text-center">
                 <h1 className="text-light mb-5">Let’s Get Social</h1>
-                    <FontAwesomeIcon className="icon fs-1 fw-bold me-5 text-primary" icon={faFacebook} />
-                    <FontAwesomeIcon className="icon fs-1 fw-bold me-5 text-danger" icon={faInstagram} />
-                    <FontAwesomeIcon className="icon fs-1 fw-bold text-primary" icon={faTwitter} />
+                    <a href=""><FontAwesomeIcon className="icon fs-1 fw-bold me-5 text-primary" icon={faFacebook} /></a>
+                    <a href=""><FontAwesomeIcon className="icon fs-1 fw-bold me-5 text-danger" icon={faInstagram} /></a>
+                    <a href=""><FontAwesomeIcon className="icon fs-1 fw-bold text-primary" icon={faTwitter} /></a>
                 </div>
             </div>
             <div className="row">
                 <div className="container border-top text-center py-4">
-                    <p className="text-light">Copyright &copy; 2021 All rights reserved | This template is made with  Monayem Khan</p>
+                    <p className="text-light">Copyright &copy; 2021 All rights reserved | This template is made by  Monayem Khan</p>
                 </div>
             </div>
             

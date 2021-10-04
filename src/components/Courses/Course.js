@@ -7,10 +7,10 @@ const Course = (props) => {
     return (
         <div className="col-md-6 mt-2">
             <div>
-                <Card className="m-3 h-100">
-                    <Card.Img className="images" variant="top" src={props?.course?.img} />
+                <Card className="m-3 h-100 text-center">
+                    <Card.Img className="img-fluid images" variant="top" src={props?.course?.img} />
                     <Card.Body>
-                        <Card.Title>{props?.course?.course_name}</Card.Title>
+                        <Card.Title className="fw-bold">{props?.course?.course_name}</Card.Title>
                         <Card.Text>
                         <p>{props?.course?.course_details}</p>
                         <h5>Course Fee: {props?.course?.amount}</h5>
