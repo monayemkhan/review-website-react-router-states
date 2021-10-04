@@ -5,13 +5,14 @@ import './Home.css'
 
 const Home = () => {
     const [courses, setCourse] = useState([]);
+    // useEffect for load data
     useEffect(()=>{
         fetch('./courseData.JSON')
         .then(res => res.json())
         .then(data => setCourse(data))
     },[])
     return (
-        
+        // Home Section
         <div className="container-fluid border-top">
             <div className="row justify-content-evenly align-items-center banner">
                 <div className="col-md-6 ps-5">
@@ -24,6 +25,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="container">
+                {/* Home courses section */}
                 <div className="row">
                     <div className="section-title text-center my-5">
                         <p className="text-primary mt-5  fs-5">Popular Online Courses</p>

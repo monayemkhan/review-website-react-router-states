@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../../images/about.jpg';
 const About = () => {
     return (
+        // About banner and top section
         <div className="about-section">
             <div className="container text-center">
                 <h1 className=" mt-5 fw-bold p-4">About Us</h1>
@@ -20,7 +21,7 @@ const About = () => {
                 </div>
                 <hr />
             </div>
-            
+            {/* More About Section */}
             <div className="container">
                 <div className="row">
                     <div className="col-md-6 my-5">

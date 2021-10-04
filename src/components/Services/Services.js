@@ -3,12 +3,14 @@ import Service from '../Service/Service';
 
 const Services = () => {
     const [services, setServices] = useState([]);
+    // useEffect for load data
     useEffect(()=>{
         fetch('./serviceData.JSON')
         .then(res => res.json())
         .then(data => setServices(data))
     },[])
     return (
+        // Service Section
         <div className="container">
             <div className="row">
             <div className="section-title text-center">

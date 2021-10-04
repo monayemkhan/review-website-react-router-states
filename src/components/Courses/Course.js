@@ -3,9 +3,10 @@ import {Button, Card } from 'react-bootstrap';
 import './Courses.css'
 
 const Course = (props) => {
-    // const {course_name, course_details, img} = props?.course
+    // const {course_name, course_details, img} = props.course
     return (
         <div className="col-md-6 mt-2">
+            {/* Single home Service Section */}
             <div>
                 <Card className="m-3 h-100 text-center">
                     <Card.Img className="img-fluid images" variant="top" src={props?.course?.img} />

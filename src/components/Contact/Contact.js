@@ -4,6 +4,7 @@ import React from 'react';
 
 const Contact = () => {
     return (
+        // Contact form Section
         <div className="container">
             <div className="row">
                 <div className="col-md-7 my-5 p-3">
@@ -22,6 +23,7 @@ const Contact = () => {
                         <button className="btn btn-outline-primary"> Send Us</button>
                     </div>
                 </div>
+                {/* Contact Details Section */}
                 <div className="col-md-5 my-5 p-3">
                     <h1 className=" border-bottom border-primary">Address</h1>
                     <div className="address mt-4">

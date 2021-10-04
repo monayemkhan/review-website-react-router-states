@@ -5,7 +5,9 @@ import React from 'react';
 
 const Footer = () => {
     return (
+        // Footer Section
         <div className="container-fluid bg-dark ">
+            {/* Footer Top section */}
             <div className="row py-5">
                 <div className="col-md-5 ms-5 ">
                     <h1 className="text-light">Stay Updated</h1>
@@ -22,6 +24,7 @@ const Footer = () => {
                 </div>
             </div>
             <hr  className="w-100 mx-auto text-light"  />
+            {/* Copyright Section */}
             <div className="row">
                 <div className="container text-center py-4">
                     <p className="text-light">Copyright &copy; 2021 All rights reserved | This template is made by  Monayem Khan</p>
