@@ -9,14 +9,14 @@ const Footer = () => {
         <div className="container-fluid bg-dark ">
             {/* Footer Top section */}
             <div className="row py-5">
-                <div className="col-md-5 ms-5 ">
+                <div className="col-md-5 col-12 ms-md-5 ms-0 ">
                     <h1 className="text-light">Stay Updated</h1>
                     <div className="input-group mb-3 mt-5 border-0">
                         <input type="text" className="form-control" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="basic-addon2" />
                         <button className="btn btn-primary input-group-text" id="basic-addon2">Subscribe Now</button>
                     </div>
                 </div>
-                <div className="col-md-5 ms-5 text-center">
+                <div className="col-md-5 col-12 ms-md-5 ms-0 text-center">
                 <h1 className="text-light mb-5">Let’s Get Social</h1>
                     <a href=""><FontAwesomeIcon className="icon fs-1 fw-bold me-5 text-primary" icon={faFacebook} /></a>
                     <a href=""><FontAwesomeIcon className="icon fs-1 fw-bold me-5 text-danger" icon={faInstagram} /></a>

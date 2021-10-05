@@ -9,7 +9,7 @@ const Course = (props) => {
             {/* Single home Service Section */}
             <div>
                 <Card className="m-3 h-100 text-center">
-                    <Card.Img className="img-fluid images" variant="top" src={props?.course?.img} />
+                    <Card.Img className="images" variant="top" src={props?.course?.img} />
                     <Card.Body>
                         <Card.Title className="fw-bold">{props?.course?.course_name}</Card.Title>
                         <Card.Text>

@@ -10,11 +10,11 @@ const About = () => {
             </div>
             <div className="container">
                 <div className="row">
-                    <div className="col-6 p-5 my-3">
+                    <div className="col-md-6 col-12 p-5 my-3">
                         <h2>Our Mission</h2>
                         <p>The New School prepares students to understand, contribute to, and succeed in a rapidly changing society, thus making the world a better and more just place. We will ensure that our students develop both the skills that a sound education provides and the competencies essential for success and leadership in the emerging creative economy. We will also lead in generating practical and theoretical knowledge that enables people to better understand our world and improve conditions for local and global communities.</p>
                     </div>
-                    <div className="col-6 p-5 my-3">
+                    <div className="col-md-6 col-12 p-5 my-3">
                         <h2>Our Vision</h2>
                         <p>We are and will be a university where design and social research drive approaches to studying issues of our time, such as democracy, urbanization, technological change, economic empowerment, sustainability, migration, and globalization. We will be the preeminent intellectual and creative center for effective engagement in a world that increasingly demands better-designed objects, communication, systems, and organizations to meet social needs.</p>
                     </div>
@@ -39,7 +39,7 @@ const About = () => {
                         </div>
                     </div>
                     <div className="col-md-6 my-5">
-                        <img className="img-fluid ms-5" src={logo} alt="" />
+                        <img className="img-fluid ms-md-5 ms-0" src={logo} alt="" />
                     </div>
                 </div>
 

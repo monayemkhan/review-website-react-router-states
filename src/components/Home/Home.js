@@ -15,13 +15,13 @@ const Home = () => {
         // Home Section
         <div className="container-fluid border-top">
             <div className="row justify-content-evenly align-items-center banner">
-                <div className="col-md-6 ps-5">
+                <div className="col-md-6 col-12 ps-5">
                     <h3 className="text-primary fs-4 my-4">Popular Online Courses</h3>
                     <h1 className="text-dark my-5">The New Way To Learn <br /> Properly in With Us!</h1>
                     <button className="btn btn-primary btn-lg px-5 fs-4">Get Started</button>
                 </div>
-                <div className="col-md-6">
-                    <img src={img} alt="" />
+                <div className="col-md-6 col-12">
+                    <img className="img-fluid" src={img} alt="" />
                 </div>
             </div>
             <div className="container">
